@@ -32,9 +32,7 @@ def load_page(url):
     return html
 
 def fix_string(text):
-    if ('https://plato.stanford.edu/' in text):
-        return text
-    elif ('//' in text):
+    if ('//' in text):
         dummy = list(text)
         dummy = dummy[3:]
         text = "entries" + "".join(dummy)
@@ -49,7 +47,7 @@ def fix_string(text):
     return text
 
 # Ładuję spis treści
-html = load_page('https://plato.stanford.edu/contents.html')
+html = load_page('contents.html')
 
 # Biorę wszystkie tagi 'strong'
 topics = html.find_all('strong')
