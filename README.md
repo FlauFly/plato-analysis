@@ -9,7 +9,7 @@ Project goal is to analyse connection between articles on Stanford Encyclopedia 
 * [Setup](#setup)
 
 ## General info
-This project analises network of connections between articles on Stanford Encyclopedia of Philosophy (SEP), which is widely acknowledged resource in the field of philosophy. Every article at the end of page has "Related Entries" segment which links other articles. This connections were used to create directed graph representing totality of connection between various topics in philosophy as represented by SEP and it's connections. 
+This project analises network of connections between articles on Stanford Encyclopedia of Philosophy (SEP), which is widely acknowledged resource in the field of philosophy. Every article at the end of page has "Related Entries" segment which links other articles. This connections were used to create directed graph representing totality of connection between various topics in philosophy as represented by SEP. Various graph and network theoretic tools were used on generated graph to gain insight into SEP representation of philosophy.
 
 ## Quick Start
 If you want only to see final effect of analysis, head to analysis.ipynb. It is ready notebook file, with outputs already processed and ready to see.
