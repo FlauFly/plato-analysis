@@ -23,7 +23,13 @@ List of technologies:
 
 ## Setup
 
-This project doesn't require setup, if you want only to see final effect of analysis (look at #quick-start). If you want to reproduce and/or modify project, clone repository.
+This project doesn't require setup, if you want only to see final effect of analysis (look at Quick Start). If you want to reproduce and/or modify project locally, clone repository and then write in terminal:
+
+$ cd plato-analysis
+$ conda env create -f environment.yml
+$ conda activate plato
+
+
 
 
 
